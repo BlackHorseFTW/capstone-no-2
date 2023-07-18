@@ -1,0 +1,103 @@
+body{
+	background: linear-gradient(-45deg, #76379f, #35379a, #2d9e4f, #808e2f);
+	background-size: 400% 400%;
+	animation: gradient 30s ease infinite;
+	height: 100vh
+}
+
+.container{
+    width: 95%;
+}
+
+#title{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#name{
+    font-family: Roboto Mono, sans-serif;
+}
+
+#para{
+    font-family: Roboto Mono, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#para1{
+    font-family: Roboto Mono, sans-serif;
+    font-size: small;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.inosuke{
+    border-radius: 50%;
+    height: 200px;
+  }
+
+  
+
+  #againme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.joke{
+    font-family: roboto mono, sans-serif;
+    font-size: 8px;
+    color: white;
+}
+
+#content{
+    font-family: roboto mono, sans-serif;
+    color: white;
+}
+
+.icon-square {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 0.75rem;
+    opacity: 50% ;
+  }
+
+  #skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto mono, sans-serif;
+    color: white;
+    padding-left: 4%;
+  }
+
+  .contact-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto Mono, sans-serif;
+    color: white;
+
+  }
+
+  #links{
+    font-family: Roboto Mono, sans-serif;
+
+  }
+  
+  button{
+    color: black;
+  }
