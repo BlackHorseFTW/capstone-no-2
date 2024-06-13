@@ -74,6 +74,10 @@ body{
     opacity: 50% ;
   }
 
+.icons{
+  padding: 1%;
+}
+
   #skills{
     display: flex;
     justify-content: center;
